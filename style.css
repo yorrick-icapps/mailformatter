@@ -56,3 +56,8 @@ button:hover {
     white-space: pre-wrap;
     font-family: monospace;
 }
+
+.hidden {
+    display: none;
+}
+
