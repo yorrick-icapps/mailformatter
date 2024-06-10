@@ -10,9 +10,6 @@ function updateTemplate() {
 <body>
 <div class="moz-text-html" lang="x-unicode">
 <div id="message" dir="ltr">${message}<br><br></div>
-<div>Vriendelijke groeten,</div>
-<div>${name} <br clear="all">
-<div></div>
 <span class="gmail_signature_prefix">-- </span><br>
 <div dir="ltr" class="gmail_signature" data-smartmail="gmail_signature">
 <div dir="ltr">
