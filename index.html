@@ -11,7 +11,7 @@
         <h1>Email Template Editor</h1>
         <form id="templateForm">
             <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50">Dag <br><br> Ik hoop dat je genoten hebt van onze webinar.<br> Als je nog feedback hebt horen wij die graag via <a href="https://icapps.com" id="feedback-link">deze link</a>.<br><br> Alvast bedankt en tot snel.<br><br></textarea><br><br>
+            <textarea id="message" name="message" rows="4" cols="50">Dag <br><br> Ik hoop dat je genoten hebt van onze webinar.<br> Als je nog feedback hebt horen wij die graag via <a href="https://icapps.com">deze link</a>.<br><br> Alvast bedankt en tot snel.<br><br></textarea><br><br>
             
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" value="Caro Cabus"><br><br>
@@ -21,6 +21,9 @@
             
             <label for="emailaddress">Email Address:</label><br>
             <input type="email" id="emailaddress" name="emailaddress" value="filip.berten@icapps.com"><br><br>
+
+            <label for="telephonenumber">Telephone Number:</label><br>
+            <input type="tel" id="telephonenumber" name="telephonenumber" value="+32 489 477 008"><br><br>
             
             <label for="footerimage">Footer Image URL:</label><br>
             <input type="url" id="footerimage" name="footerimage" value="https://www.bitsandbites.be/visionary-frontiers"><br><br>
@@ -30,6 +33,7 @@
         
         <h2>Updated HTML Template:</h2>
         <div id="updatedTemplate"></div>
+        <button id="copyButton" onclick="copyToClipboard()">Copy to Clipboard</button>
     </div>
     <script src="script.js"></script>
 </body>
