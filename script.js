@@ -48,7 +48,7 @@ function updateTemplate() {
 <a href="https://www.facebook.com/icappsbe/" style="margin-right: 10px;"><img src="https://subsites.icapps.be/icapps/fb-logo" alt="Facebook" style="width: 20px; background-color: transparent;"></a>
 <a href="https://www.instagram.com/icapps/?hl=en" style="margin-right: 10px;"><img src="https://subsites.icapps.be/icapps/ig-logo" alt="Instagram" style="width: 20px; background-color: transparent;"></a>
 <a href="https://twitter.com/icapps?lang=en" style="margin-right: 10px;"><img src="https://subsites.icapps.be/icapps/tw-logo" alt="twitter" style="width: 20px; background-color: transparent;"></a>
-<br><br><a id="footerimage" href="${footerimage}"><img src="https://ci3.googleusercontent.com/mail-sig/AIorK4xIAUIbpfvbprzmE4Yw1tNmGQfS1f6coacfS2M8l6QGRgD6UilaR8JrPFLdBFZa_Hqxkwohb3q0NgI6"></a></td>
+<br><br></td>
 </tr>
 </tbody>
 </table>
